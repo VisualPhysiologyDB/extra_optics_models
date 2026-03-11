@@ -50,4 +50,36 @@ To use any of these models in your OPTICS scripts, you must manually download th
     -   Find the `self.model_choices` list.
 
     -   Add your newly downloaded model name to the active list, OR comment out the restricted list and uncomment the full list of models provided directly below it.
-  
+
+---
+
+## License
+All data and code is covered under a GNU General Public License (GPL)(Version 3), in accordance with Open Source Initiative (OSI)-policies
+
+## Citation
+
+- **IF citing this GitHub and its contents use the following DOI provided by Zenodo...**
+
+      10.5281/zenodo.10667840
+    
+- **IF you use OPTICS in your research, please cite the following paper(s):**
+
+  - Our more recent publication directly on the making/utility of OPTICS.
+
+        Seth A. Frazer, Todd H. Oakley. Accessible and Robust Machine Learning Approaches to Improve the Opsin Genotype-Phenotype Map. bioRxiv, 2025.08.22.671864. https://doi.org/10.1101/2025.08.22.671864
+    
+  - Our original paper on the development of VPOD; the opsin genotype-phenotype database backbone for training the ML models used in OPTICS. 
+
+        Seth A. Frazer, Mahdi Baghbanzadeh, Ali Rahnavard, Keith A. Crandall, & Todd H Oakley. Discovering genotype-phenotype relationships with machine learning and the Visual Physiology Opsin Database (VPOD). GigaScience, 2024.09.01. https://doi.org/10.1093/gigascience/giae073
+
+## Contact
+Contact information for author questions or feedback.
+
+  **Todd H. Oakley** - [ORCID ID](https://orcid.org/0000-0002-4478-915X)
+    
+    oakley@ucsb.edu
+    
+**Seth A. Frazer** - [ORCID ID](https://orcid.org/0000-0002-3800-212X)
+
+    sethfrazer@ucsb.edu
+    
