@@ -27,13 +27,15 @@ To use any of these models in your OPTICS scripts, you must manually download th
 
 1.  **Download the Required Files** Locate the specific model `.pkl` file (or bootstrap folder) you need from this repository. Ensure you select the correct VPOD version (e.g., `vpod_1.3`) and encoding method (`aa_prop` or `one_hot`) that you intend to use.
 
+> **📥 You can also bulk-download zipp-folders with _box_**: Visit our box-hub, [here](https://ucsb.box.com/v/extra-optics-models), and download the zipped folders containing the regular 'single' models or bootstrap ensemble folders.  
+
 2.  **Move Files to Your Local Installation** Transfer the downloaded files into your local OPTICS `models` directory:
 
     -   **For standard (single) regression models:** Place the `.pkl` file into the corresponding regression model path
 
         `models/reg_models/<version>/<encoding>/`
 
-    -   **For bootstrap model ensembles:** Place the entire folder into the bootstrap path (****Make sure to download the corresponding standard regression model as well!**)**
+    -   **For bootstrap model ensembles:** Place the entire folder into the bootstrap path (**Make sure to download the corresponding standard regression model as well!**)
 
         `models/bs_models/<version>/<encoding>/`
 
@@ -48,3 +50,4 @@ To use any of these models in your OPTICS scripts, you must manually download th
     -   Find the `self.model_choices` list.
 
     -   Add your newly downloaded model name to the active list, OR comment out the restricted list and uncomment the full list of models provided directly below it.
+  
